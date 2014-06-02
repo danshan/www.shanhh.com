@@ -1,10 +1,25 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: "Dan's Workspace"
+author: "Dan 单弘昊"
+description: "未来的家庭, 除了一扇窗户, 还有一只企鹅."
+keywords: "danshan,单弘昊"
+generator: "Jekyll 2.0.3"
+favicon: "/image/favicon.png"
 baseurl: ""
 url: "http://yourdomain.com"
 
+# about myself
+aboutme: "http://about.me/shanhonghao"
+twitter: "https://twitter.com/danshan"
+instagram: "http://instagram.com/shanhonghao"
+github: "https://github.com/danshan"
+bitbucket: "https://bitbucket.org/danshan"
+wechat: "shanhonghao"
+weibo: "http://weibo.com/danshan"
+linkedin: "http://www.linkedin.com/in/shanhh"
+
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 permalink: pretty
+highlighter: pygments
+exclude: [Rakefile, README.md]
